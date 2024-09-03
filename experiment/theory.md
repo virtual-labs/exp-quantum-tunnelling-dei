@@ -5,4 +5,4 @@ Quantum Tunneling Phenomenon:
 Quantum tunneling occurs when a particle encounters a potential energy barrier that exceeds its total energy. In classical mechanics, such a barrier would prevent the particle from passing through. However, according to quantum mechanics, there is a non-zero probability that the particle will penetrate the barrier and emerge on the other side.
 Schrödinger Equation and Wave Functions:
 The behavior of particles in the presence of a potential barrier is described by the time-independent Schrödinger equation:
-(-ℏ^2)/2m  (ⅆ^2 ψ(x))/(ⅆx^2 )  (+1)/2 mw^2 x^2 ψ(x)=Eψ(x)  
+![image1](images/image1.png)
