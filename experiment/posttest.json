@@ -2,35 +2,29 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "If the transmission coefficient T for a potential barrier is 0.8, what percentage of particles incident on the barrier are reflected?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "10%",
+        "b": "20%",
+        "c": "30%",
+        "d": "50%"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "b": "Explanation : <a href='https://vaia.com/en-us/textbooks/physics/quantum-physics-of-atoms-molecules-solids-nuclei-and-particles-2-edition/chapter-6/problem-15-a-particle-is-incident-on-a-potential-barrier-wit/#:~:text=For%20example%2C%20a%20coefficient%20of,the%20particle%20wave%20is%20reflected.'>here</a>",
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "How does increasing the width of a potential barrier affect the transmission coefficient?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It decreases the transmission coefficient",
+        "b": "It increases the transmission coefficient",
+        "c": "It has no effect on the transmission coefficient",
+        "d": "It causes the transmission coefficient to oscillate"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Explanation : <a href='https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/07%3A_Quantum_Mechanics/7.07%3A_Quantum_Tunneling_of_Particles_through_Potential_Barriers'>here</a>"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
