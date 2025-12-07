@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the phenomenon called when particles penetrate potential energy barriers that would be classically impossible?",
+      "question": "1. What is the phenomenon called when particles penetrate potential energy barriers that would be classically impossible?",
       "answers": {
         "a": "Reflection",
         "b": "Dispersion",
@@ -12,14 +12,14 @@
       "explanations": {
         "a": "Explanation 1",
         "b": "Explanation 2",
-        "c": "Explanation 2 <a href='https://en.wikipedia.org/wiki/Quantum_tunnelling#:~:text=In%20physics%2C%20quantum%20tunnelling%2C%20barrier,sufficient%20energy%20to%20pass%20or'>here</a>",
+        "c": "Explanation 2 <a href='https://en.wikipedia.org/wiki/Quantum_tunnelling'>here</a>",
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "Which equation describes the behavior of particles encountering potential barriers in quantum mechanics?",
+      "question": "2. Which equation describes the behavior of particles encountering potential barriers in quantum mechanics?",
       "answers": {
         "a": "Newton's Second Law",
         "b": "Maxwell's equations",
@@ -29,10 +29,52 @@
       "explanations": {
         "a": "Explanation 1",
         "b": "Explanation 2",
-        "c": "Explanation 2 <a href='https://en.wikipedia.org/wiki/Quantum_tunnelling#:~:text=Tunneling%20is%20a%20consequence%20of,Schr%C3%B6dinger%20equation%20describe%20their%20behavior.'>here</a>",
+        "c": "Explanation 2 <a href='https://en.wikipedia.org/wiki/Quantum_tunnelling'>here</a>",
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What happens to the tunneling probability when the width of the potential barrier increases?",
+      "answers": {
+        "a": "It increases",
+        "b": "It decreases",
+        "c": "It becomes infinite",
+        "d": "It remains constant"
+      },
+      "explanations": {
+        "b": "Correct. Tunneling probability decreases exponentially with barrier width."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which factor increases the likelihood of quantum tunneling?",
+      "answers": {
+        "a": "Lower particle energy",
+        "b": "Higher barrier height",
+        "c": "Smaller barrier width",
+        "d": "Increasing classical momentum"
+      },
+      "explanations": {
+        "c": "Correct. A thinner barrier allows higher tunneling probability."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Quantum tunneling plays a key role in which of the following physical processes?",
+      "answers": {
+        "a": "Radioactive alpha decay",
+        "b": "Classical projectile motion",
+        "c": "Newtonian gravitational attraction",
+        "d": "Maxwellian light propagation"
+      },
+      "explanations": {
+        "a": "Correct. Alpha decay is a direct consequence of quantum tunneling."
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
