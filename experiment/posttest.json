@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "If the transmission coefficient T for a potential barrier is 0.8, what percentage of particles incident on the barrier are reflected?",
+      "question": "1. If the transmission coefficient T for a potential barrier is 0.8, what percentage of particles incident on the barrier are reflected?",
       "answers": {
         "a": "10%",
         "b": "20%",
@@ -16,7 +16,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "How does increasing the width of a potential barrier affect the transmission coefficient?",
+      "question": "2. How does increasing the width of a potential barrier affect the transmission coefficient?",
       "answers": {
         "a": "It decreases the transmission coefficient",
         "b": "It increases the transmission coefficient",
@@ -26,7 +26,49 @@
       "explanations": {
         "a": "Explanation : <a href='https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/07%3A_Quantum_Mechanics/7.07%3A_Quantum_Tunneling_of_Particles_through_Potential_Barriers'>here</a>"
       },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which of the following factors increases the probability of quantum tunnelling?",
+      "answers": {
+        "a": "Higher barrier height",
+        "b": "Lower particle energy",
+        "c": "Narrower barrier width",
+        "d": "Larger particle mass"
+      },
+      "explanations": {
+        "c": "Correct. A thinner barrier increases tunnelling probability exponentially."
+      },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. In quantum tunnelling, what happens to the wavefunction inside the potential barrier?",
+      "answers": {
+        "a": "It oscillates with constant amplitude",
+        "b": "It becomes zero immediately",
+        "c": "It decreases exponentially",
+        "d": "It increases exponentially"
+      },
+      "explanations": {
+        "c": "Correct. Inside the barrier, the wavefunction shows exponential decay."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Quantum tunnelling is essential for which real-world physical phenomenon?",
+      "answers": {
+        "a": "Planetary motion",
+        "b": "Alpha particle emission in radioactive decay",
+        "c": "Reflection of light from a mirror",
+        "d": "Magnetic repulsion"
+      },
+      "explanations": {
+        "b": "Correct. Alpha decay occurs because alpha particles tunnel through the nuclear potential barrier."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
