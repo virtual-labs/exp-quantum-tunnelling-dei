@@ -2,49 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "1. If the transmission coefficient T for a potential barrier is 0.8, what percentage of particles incident on the barrier are reflected?",
+      "question": "1. After conducting the simulation, if the Transmission % was 35% and Reflection % was 65%, what is the transmission coefficient T?",
       "answers": {
-        "a": "10%",
-        "b": "20%",
-        "c": "30%",
-        "d": "50%"
+        "a": "0.35",
+        "b": "0.65",
+        "c": "1.00",
+        "d": "0.30"
       },
       "explanations": {
-        "b": "Explanation : <a href='https://vaia.com/en-us/textbooks/physics/quantum-physics-of-atoms-molecules-solids-nuclei-and-particles-2-edition/chapter-6/problem-15-a-particle-is-incident-on-a-potential-barrier-wit/#:~:text=For%20example%2C%20a%20coefficient%20of,the%20particle%20wave%20is%20reflected.'>here</a>"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "2. How does increasing the width of a potential barrier affect the transmission coefficient?",
-      "answers": {
-        "a": "It decreases the transmission coefficient",
-        "b": "It increases the transmission coefficient",
-        "c": "It has no effect on the transmission coefficient",
-        "d": "It causes the transmission coefficient to oscillate"
-      },
-      "explanations": {
-        "a": "Explanation : <a href='https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/07%3A_Quantum_Mechanics/7.07%3A_Quantum_Tunneling_of_Particles_through_Potential_Barriers'>here</a>"
+        "a": "Correct! Transmission coefficient T = 0.35 (or 35% expressed as a decimal).",
+        "b": "This is the reflection coefficient R, not transmission T.",
+        "c": "This would mean 100% transmission, which is not the case.",
+        "d": "This doesn't match the given percentage."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "3. Which of the following factors increases the probability of quantum tunnelling?",
+      "question": "2. In the 'Easy Tunnel' preset scenario, why is the transmission percentage high?",
       "answers": {
-        "a": "Higher barrier height",
-        "b": "Lower particle energy",
-        "c": "Narrower barrier width",
-        "d": "Larger particle mass"
+        "a": "Because barrier width is very large",
+        "b": "Because particle energy (E) is high relative to barrier height (V₀)",
+        "c": "Because the simulation speed is faster",
+        "d": "Because the grid is enabled"
       },
       "explanations": {
-        "c": "Correct. A thinner barrier increases tunnelling probability exponentially."
+        "a": "Large barrier width would decrease transmission, not increase it.",
+        "b": "Correct! In Easy Tunnel, E is high and V₀ is low, making tunnelling easier.",
+        "c": "Speed doesn't affect the physics, only the animation rate.",
+        "d": "Grid is just a visual aid and doesn't affect the physics."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "4. In quantum tunnelling, what happens to the wavefunction inside the potential barrier?",
+      "question": "3. When you varied the Barrier Width from 10 to 50 while keeping E and V₀ constant, what pattern did you observe?",
+      "answers": {
+        "a": "Transmission increased linearly",
+        "b": "Transmission decreased exponentially",
+        "c": "Transmission remained constant",
+        "d": "Transmission oscillated randomly"
+      },
+      "explanations": {
+        "a": "Incorrect. Transmission doesn't increase with width.",
+        "b": "Correct! Transmission coefficient decreases exponentially with barrier width: T ∝ e^(-2κL)",
+        "c": "Incorrect. Width significantly affects transmission.",
+        "d": "Incorrect. The relationship is deterministic, not random."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "4. In the simulation, what happens to the wavefunction inside the potential barrier?",
       "answers": {
         "a": "It oscillates with constant amplitude",
         "b": "It becomes zero immediately",
@@ -52,24 +61,81 @@
         "d": "It increases exponentially"
       },
       "explanations": {
-        "c": "Correct. Inside the barrier, the wavefunction shows exponential decay."
+        "a": "Oscillation occurs outside the barrier, not inside.",
+        "b": "The wavefunction doesn't vanish immediately.",
+        "c": "Correct! Inside the barrier (when E < V₀), the wavefunction shows exponential decay.",
+        "d": "Exponential increase would violate conservation principles."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "5. Quantum tunnelling is essential for which real-world physical phenomenon?",
+      "question": "5. In the 'Classical' preset where E > V₀, what did you observe?",
       "answers": {
-        "a": "Planetary motion",
-        "b": "Alpha particle emission in radioactive decay",
-        "c": "Reflection of light from a mirror",
-        "d": "Magnetic repulsion"
+        "a": "No wave passed through",
+        "b": "High transmission but still some reflection (quantum effect)",
+        "c": "Exactly 100% transmission",
+        "d": "The simulation stopped working"
       },
       "explanations": {
-        "b": "Correct. Alpha decay occurs because alpha particles tunnel through the nuclear potential barrier."
+        "a": "Incorrect. When E > V₀, particles can classically pass over the barrier.",
+        "b": "Correct! Even when E > V₀, quantum mechanics predicts some reflection - this is a purely quantum effect with no classical analogue.",
+        "c": "Due to quantum effects, there's always some reflection even when E > V₀.",
+        "d": "The simulation works correctly in all presets."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "6. Based on your graph of Barrier Width vs Transmission %, which mathematical relationship best describes the curve?",
+      "answers": {
+        "a": "Linear: T = -mL + c",
+        "b": "Quadratic: T = aL²",
+        "c": "Exponential decay: T = e^(-2κL)",
+        "d": "Logarithmic: T = log(L)"
+      },
+      "explanations": {
+        "a": "A linear relationship doesn't match the observed curve.",
+        "b": "A quadratic relationship is not observed in tunnelling.",
+        "c": "Correct! The transmission coefficient follows exponential decay with barrier width.",
+        "d": "A logarithmic relationship doesn't match tunnelling physics."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. What real-world phenomenon is directly explained by quantum tunnelling?",
+      "answers": {
+        "a": "Planetary motion around the Sun",
+        "b": "Alpha particle emission in radioactive decay",
+        "c": "Reflection of light from a mirror",
+        "d": "Magnetic compass pointing north"
+      },
+      "explanations": {
+        "a": "Planetary motion is explained by classical gravity.",
+        "b": "Correct! Alpha decay occurs because alpha particles tunnel through the nuclear potential barrier.",
+        "c": "Light reflection is explained by classical optics.",
+        "d": "Compass behavior is explained by classical magnetism."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+    {
+      "question": "8. In the 'Step Potential' preset, what unique behavior did you observe?",
+      "answers": {
+        "a": "Complete transmission of the wave",
+        "b": "Wave reflection at the discontinuity with no transmitted wave beyond",
+        "c": "The wave disappeared completely",
+        "d": "Barrier width had no effect"
+      },
+      "explanations": {
+        "a": "Step potential doesn't allow complete transmission for E < V₀.",
+        "b": "Correct! At a step potential (infinite width), no wave can transmit through - all is reflected at the discontinuity.",
+        "c": "Wave conservation is maintained; it reflects back.",
+        "d": "In step potential, width is essentially infinite."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
     }
   ]
 }
