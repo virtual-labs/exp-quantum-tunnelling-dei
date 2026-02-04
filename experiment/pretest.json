@@ -6,14 +6,14 @@
       "answers": {
         "a": "Reflection",
         "b": "Dispersion",
-        "c": "Tunneling",
+        "c": "Quantum Tunnelling",
         "d": "Absorption"
       },
       "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2 <a href='https://en.wikipedia.org/wiki/Quantum_tunnelling'>here</a>",
-        "d": "Explanation 2"
+        "a": "Reflection is when a wave bounces back from a barrier.",
+        "b": "Dispersion refers to the spreading of waves.",
+        "c": "Correct! Quantum tunnelling allows particles to pass through barriers even when they don't have enough energy classically. <a href='https://en.wikipedia.org/wiki/Quantum_tunnelling'>Read more</a>",
+        "d": "Absorption is when energy is taken in by a material."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -22,59 +22,102 @@
       "question": "2. Which equation describes the behavior of particles encountering potential barriers in quantum mechanics?",
       "answers": {
         "a": "Newton's Second Law",
-        "b": "Maxwell's equations",
-        "c": "Schrödinger equation",
-        "d": "Planck's equation"
+        "b": "Maxwell's Equations",
+        "c": "Schrödinger Equation",
+        "d": "Planck's Equation"
       },
       "explanations": {
-        "a": "Explanation 1",
-        "b": "Explanation 2",
-        "c": "Explanation 2 <a href='https://en.wikipedia.org/wiki/Quantum_tunnelling'>here</a>",
-        "d": "Explanation 2"
+        "a": "Newton's laws apply to classical mechanics, not quantum behavior.",
+        "b": "Maxwell's equations describe electromagnetic waves.",
+        "c": "Correct! The Schrödinger equation describes how quantum states evolve over time. <a href='https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation'>Read more</a>",
+        "d": "Planck's equation relates energy to frequency but doesn't describe tunnelling."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "3. What happens to the tunneling probability when the width of the potential barrier increases?",
+      "question": "3. What happens to the tunnelling probability when the width of the potential barrier increases?",
       "answers": {
-        "a": "It increases",
-        "b": "It decreases",
+        "a": "It increases exponentially",
+        "b": "It decreases exponentially",
         "c": "It becomes infinite",
         "d": "It remains constant"
       },
       "explanations": {
-        "b": "Correct. Tunneling probability decreases exponentially with barrier width."
+        "a": "Incorrect. Wider barriers make tunnelling harder, not easier.",
+        "b": "Correct! Tunnelling probability decreases exponentially with barrier width: T ∝ e^(-2κL)",
+        "c": "Incorrect. Probability cannot exceed 100%.",
+        "d": "Incorrect. Barrier width significantly affects tunnelling probability."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "4. Which factor increases the likelihood of quantum tunneling?",
+      "question": "4. In the simulation, what does the 'Transmission %' indicate?",
       "answers": {
-        "a": "Lower particle energy",
-        "b": "Higher barrier height",
-        "c": "Smaller barrier width",
-        "d": "Increasing classical momentum"
+        "a": "Percentage of wave reflected back",
+        "b": "Energy of the particle",
+        "c": "Percentage of wave that passed through the barrier",
+        "d": "Width of the barrier"
       },
       "explanations": {
-        "c": "Correct. A thinner barrier allows higher tunneling probability."
+        "a": "That would be the Reflection %, not Transmission %.",
+        "b": "Energy is controlled by a separate slider.",
+        "c": "Correct! Transmission % shows how much of the wavefunction successfully tunnelled through the barrier.",
+        "d": "Width is a separate parameter controlled by a slider."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "5. Quantum tunneling plays a key role in which of the following physical processes?",
+      "question": "5. Which factor increases the likelihood of quantum tunnelling?",
       "answers": {
-        "a": "Radioactive alpha decay",
-        "b": "Classical projectile motion",
-        "c": "Newtonian gravitational attraction",
-        "d": "Maxwellian light propagation"
+        "a": "Lower particle energy (E)",
+        "b": "Higher barrier height (V₀)",
+        "c": "Smaller barrier width (L)",
+        "d": "Larger particle mass"
       },
       "explanations": {
-        "a": "Correct. Alpha decay is a direct consequence of quantum tunneling."
+        "a": "Lower energy actually decreases tunnelling probability.",
+        "b": "Higher barriers make tunnelling harder.",
+        "c": "Correct! A thinner barrier allows higher tunnelling probability because T ∝ e^(-2κL).",
+        "d": "Larger mass decreases tunnelling probability."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. What is the transmission coefficient formula for quantum tunnelling?",
+      "answers": {
+        "a": "T = E × V₀",
+        "b": "T = e^(-2κL)",
+        "c": "T = L / V₀",
+        "d": "T = E + V₀"
+      },
+      "explanations": {
+        "a": "This is not the correct formula.",
+        "b": "Correct! The transmission coefficient is T = e^(-2κL) where κ = √(2m(V₀-E)/ℏ²)",
+        "c": "This is not the correct formula.",
+        "d": "This is not the correct formula."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. In the simulation, what does the 'Density' display mode show?",
+      "answers": {
+        "a": "Real and imaginary parts of the wavefunction",
+        "b": "Probability density |Ψ|² with phase as color",
+        "c": "Only the barrier region",
+        "d": "Energy levels"
+      },
+      "explanations": {
+        "a": "That would be the 'View' (Real/Imag) mode.",
+        "b": "Correct! Density mode shows the probability distribution with phase indicated by color.",
+        "c": "The barrier is always visible in both modes.",
+        "d": "Energy is shown in the data panel, not the display modes."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
