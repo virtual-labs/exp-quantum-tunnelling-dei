@@ -119,6 +119,57 @@
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+    {
+      "question": "8. What happens to the tunnelling probability when the barrier height (V₀) increases?",
+      "answers": {
+        "a": "It increases",
+        "b": "It decreases",
+        "c": "It remains constant",
+        "d": "It becomes infinite"
+      },
+      "explanations": {
+        "a": "Higher barriers make tunnelling harder, not easier.",
+        "b": "Correct! Higher barrier height decreases tunnelling probability as κ = √(2m(V₀-E)/ℏ²) increases.",
+        "c": "Barrier height significantly affects tunnelling probability.",
+        "d": "Probability cannot exceed 100%."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. Which of the following applications uses quantum tunnelling?",
+      "answers": {
+        "a": "Scanning Tunnelling Microscope (STM)",
+        "b": "Traditional light microscope",
+        "c": "Radio transmission",
+        "d": "Sound amplification"
+      },
+      "explanations": {
+        "a": "Correct! STM uses quantum tunnelling of electrons to image surfaces at atomic resolution.",
+        "b": "Light microscopes use optical principles, not quantum tunnelling.",
+        "c": "Radio transmission uses electromagnetic waves.",
+        "d": "Sound amplification is based on acoustic principles."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "10. In quantum mechanics, what does the wavefunction Ψ represent?",
+      "answers": {
+        "a": "The exact position of a particle",
+        "b": "The probability amplitude of finding a particle",
+        "c": "The speed of the particle",
+        "d": "The mass of the particle"
+      },
+      "explanations": {
+        "a": "Quantum mechanics doesn't give exact positions, only probabilities.",
+        "b": "Correct! The wavefunction Ψ is a probability amplitude, and |Ψ|² gives the probability density.",
+        "c": "Speed is related to momentum, not directly to the wavefunction.",
+        "d": "Mass is a property of the particle, not represented by the wavefunction."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
   ]
 }
