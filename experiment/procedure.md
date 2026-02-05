@@ -1,9 +1,3 @@
-### Procedure
-
-Follow these steps to perform the Quantum Tunnelling experiment:
-
----
-
 #### Step 1: Understanding the Interface
 Open the simulation and familiarize yourself with the control panels:
 - **Left Panel**: Wavepacket Parameters and Potential Barrier controls
@@ -30,7 +24,7 @@ Open the simulation and familiarize yourself with the control panels:
 #### Step 3: Start the Simulation
 1. Click the **▶️ Play** button to start the animation
 2. Observe the wavepacket moving towards the barrier
-3. Watch the **Reflected %** and **Transmitted %** values change in real-time
+3. Watch the **Reflected %** and **Transmitted %** values change in real-time.
 
 ---
 
@@ -65,12 +59,12 @@ Record your observations in the table below:
 <th style="padding: 12px; border: 1px solid #ddd;">Transmission %</th>
 <th style="padding: 12px; border: 1px solid #ddd;">Reflection %</th>
 </tr>
-<tr><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">1</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
-<tr style="background: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">2</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
-<tr><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">3</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
-<tr style="background: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">4</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
-<tr><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">5</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
-<tr style="background: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">6</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">1</td><td style="padding: 8px; border: 1px solid #ddd;">0.030</td><td style="padding: 8px; border: 1px solid #ddd;">0.040</td><td style="padding: 8px; border: 1px solid #ddd;">20</td><td style="padding: 8px; border: 1px solid #ddd;">12.5%</td><td style="padding: 8px; border: 1px solid #ddd;">87.5%</td></tr>
+<tr style="background: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">2</td><td style="padding: 8px; border: 1px solid #ddd;">0.060</td><td style="padding: 8px; border: 1px solid #ddd;">0.020</td><td style="padding: 8px; border: 1px solid #ddd;">15</td><td style="padding: 8px; border: 1px solid #ddd;">78.3%</td><td style="padding: 8px; border: 1px solid #ddd;">21.7%</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">3</td><td style="padding: 8px; border: 1px solid #ddd;">0.035</td><td style="padding: 8px; border: 1px solid #ddd;">0.035</td><td style="padding: 8px; border: 1px solid #ddd;">25</td><td style="padding: 8px; border: 1px solid #ddd;">28.4%</td><td style="padding: 8px; border: 1px solid #ddd;">71.6%</td></tr>
+<tr style="background: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">4</td><td style="padding: 8px; border: 1px solid #ddd;">0.020</td><td style="padding: 8px; border: 1px solid #ddd;">0.050</td><td style="padding: 8px; border: 1px solid #ddd;">30</td><td style="padding: 8px; border: 1px solid #ddd;">3.2%</td><td style="padding: 8px; border: 1px solid #ddd;">96.8%</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">5</td><td style="padding: 8px; border: 1px solid #ddd;">0.070</td><td style="padding: 8px; border: 1px solid #ddd;">0.050</td><td style="padding: 8px; border: 1px solid #ddd;">10</td><td style="padding: 8px; border: 1px solid #ddd;">89.6%</td><td style="padding: 8px; border: 1px solid #ddd;">10.4%</td></tr>
+<tr style="background: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">6</td><td style="padding: 8px; border: 1px solid #ddd;">0.045</td><td style="padding: 8px; border: 1px solid #ddd;">0.030</td><td style="padding: 8px; border: 1px solid #ddd;">40</td><td style="padding: 8px; border: 1px solid #ddd;">15.7%</td><td style="padding: 8px; border: 1px solid #ddd;">84.3%</td></tr>
 </table>
 
 ---
@@ -85,11 +79,11 @@ Keep E and V₀ constant, vary only the Barrier Width (L):
 <th style="padding: 12px; border: 1px solid #ddd;">Transmission %</th>
 <th style="padding: 12px; border: 1px solid #ddd;">Observation</th>
 </tr>
-<tr><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">1</td><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">10</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
-<tr style="background: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">2</td><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">20</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
-<tr><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">3</td><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">30</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
-<tr style="background: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">4</td><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">40</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
-<tr><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">5</td><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">50</td><td style="padding: 8px; border: 1px solid #ddd;"></td><td style="padding: 8px; border: 1px solid #ddd;"></td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">1</td><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">10</td><td style="padding: 8px; border: 1px solid #ddd;">45.2%</td><td style="padding: 8px; border: 1px solid #ddd;">High transmission with thin barrier</td></tr>
+<tr style="background: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">2</td><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">20</td><td style="padding: 8px; border: 1px solid #ddd;">20.4%</td><td style="padding: 8px; border: 1px solid #ddd;">Moderate transmission</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">3</td><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">30</td><td style="padding: 8px; border: 1px solid #ddd;">9.2%</td><td style="padding: 8px; border: 1px solid #ddd;">Exponential decay observed</td></tr>
+<tr style="background: #f9f9f9;"><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">4</td><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">40</td><td style="padding: 8px; border: 1px solid #ddd;">4.1%</td><td style="padding: 8px; border: 1px solid #ddd;">Low transmission with thick barrier</td></tr>
+<tr><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">5</td><td style="padding: 8px; border: 1px solid #ddd; text-align: center;">50</td><td style="padding: 8px; border: 1px solid #ddd;">1.8%</td><td style="padding: 8px; border: 1px solid #ddd;">Very low transmission, confirms T ∝ e<sup>-2κL</sup></td></tr>
 </table>
 
 ---
@@ -100,6 +94,16 @@ Using your collected data, plot a graph with:
 - **Y-axis**: Transmission Percentage (%)
 
 Observe the exponential relationship: **T ∝ e<sup>-2κL</sup>**
+
+
+![simulation image](images/image4.png) 
+
+fig.1 Quantum Wavefunction Visualization. in Density form
+
+![simulation image](images/image4.png) 
+
+fig.2 Quantum Wavefunction Visualization.in View or frequency form
+
 
 ---
 

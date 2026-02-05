@@ -136,6 +136,40 @@
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
+    },
+    {
+      "question": "9. When you increased particle energy (E) while keeping V₀ and L constant, what trend did you observe in Transmission %?",
+      "answers": {
+        "a": "Transmission decreased",
+        "b": "Transmission increased",
+        "c": "Transmission remained constant",
+        "d": "Transmission oscillated randomly"
+      },
+      "explanations": {
+        "a": "Higher energy makes tunnelling easier, not harder.",
+        "b": "Correct! Higher particle energy increases tunnelling probability because the effective barrier (V₀-E) becomes smaller.",
+        "c": "Energy significantly affects transmission.",
+        "d": "The relationship is deterministic, not random."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "10. Based on your experimental data, which scenario showed the highest Transmission %?",
+      "answers": {
+        "a": "Hard Tunnel (Low E, High V₀)",
+        "b": "Wide Barrier (Large L)",
+        "c": "Easy Tunnel (High E, Low V₀)",
+        "d": "Step Potential (Infinite Width)"
+      },
+      "explanations": {
+        "a": "Hard Tunnel has low transmission due to high barrier and low energy.",
+        "b": "Wide barriers decrease transmission exponentially.",
+        "c": "Correct! Easy Tunnel scenario has the highest transmission because particle energy is high relative to barrier height.",
+        "d": "Step potential has zero transmission as width is infinite."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
     }
   ]
 }
