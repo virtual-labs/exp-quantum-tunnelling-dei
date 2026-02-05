@@ -1,0 +1,175 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. After conducting the simulation, if the Transmission % was 35% and Reflection % was 65%, what is the transmission coefficient T?",
+      "answers": {
+        "a": "0.35",
+        "b": "0.65",
+        "c": "1.00",
+        "d": "0.30"
+      },
+      "explanations": {
+        "a": "Correct! Transmission coefficient T = 0.35 (or 35% expressed as a decimal).",
+        "b": "This is the reflection coefficient R, not transmission T.",
+        "c": "This would mean 100% transmission, which is not the case.",
+        "d": "This doesn't match the given percentage."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. In the 'Easy Tunnel' preset scenario, why is the transmission percentage high?",
+      "answers": {
+        "a": "Because barrier width is very large",
+        "b": "Because particle energy (E) is high relative to barrier height (V₀)",
+        "c": "Because the simulation speed is faster",
+        "d": "Because the grid is enabled"
+      },
+      "explanations": {
+        "a": "Large barrier width would decrease transmission, not increase it.",
+        "b": "Correct! In Easy Tunnel, E is high and V₀ is low, making tunnelling easier.",
+        "c": "Speed doesn't affect the physics, only the animation rate.",
+        "d": "Grid is just a visual aid and doesn't affect the physics."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. When you varied the Barrier Width from 10 to 50 while keeping E and V₀ constant, what pattern did you observe?",
+      "answers": {
+        "a": "Transmission increased linearly",
+        "b": "Transmission decreased exponentially",
+        "c": "Transmission remained constant",
+        "d": "Transmission oscillated randomly"
+      },
+      "explanations": {
+        "a": "Incorrect. Transmission doesn't increase with width.",
+        "b": "Correct! Transmission coefficient decreases exponentially with barrier width: T ∝ e^(-2κL)",
+        "c": "Incorrect. Width significantly affects transmission.",
+        "d": "Incorrect. The relationship is deterministic, not random."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "4. In the simulation, what happens to the wavefunction inside the potential barrier?",
+      "answers": {
+        "a": "It oscillates with constant amplitude",
+        "b": "It becomes zero immediately",
+        "c": "It decreases exponentially",
+        "d": "It increases exponentially"
+      },
+      "explanations": {
+        "a": "Oscillation occurs outside the barrier, not inside.",
+        "b": "The wavefunction doesn't vanish immediately.",
+        "c": "Correct! Inside the barrier (when E < V₀), the wavefunction shows exponential decay.",
+        "d": "Exponential increase would violate conservation principles."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. In the 'Classical' preset where E > V₀, what did you observe?",
+      "answers": {
+        "a": "No wave passed through",
+        "b": "High transmission but still some reflection (quantum effect)",
+        "c": "Exactly 100% transmission",
+        "d": "The simulation stopped working"
+      },
+      "explanations": {
+        "a": "Incorrect. When E > V₀, particles can classically pass over the barrier.",
+        "b": "Correct! Even when E > V₀, quantum mechanics predicts some reflection - this is a purely quantum effect with no classical analogue.",
+        "c": "Due to quantum effects, there's always some reflection even when E > V₀.",
+        "d": "The simulation works correctly in all presets."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "6. Based on your graph of Barrier Width vs Transmission %, which mathematical relationship best describes the curve?",
+      "answers": {
+        "a": "Linear: T = -mL + c",
+        "b": "Quadratic: T = aL²",
+        "c": "Exponential decay: T = e^(-2κL)",
+        "d": "Logarithmic: T = log(L)"
+      },
+      "explanations": {
+        "a": "A linear relationship doesn't match the observed curve.",
+        "b": "A quadratic relationship is not observed in tunnelling.",
+        "c": "Correct! The transmission coefficient follows exponential decay with barrier width.",
+        "d": "A logarithmic relationship doesn't match tunnelling physics."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. What real-world phenomenon is directly explained by quantum tunnelling?",
+      "answers": {
+        "a": "Planetary motion around the Sun",
+        "b": "Alpha particle emission in radioactive decay",
+        "c": "Reflection of light from a mirror",
+        "d": "Magnetic compass pointing north"
+      },
+      "explanations": {
+        "a": "Planetary motion is explained by classical gravity.",
+        "b": "Correct! Alpha decay occurs because alpha particles tunnel through the nuclear potential barrier.",
+        "c": "Light reflection is explained by classical optics.",
+        "d": "Compass behavior is explained by classical magnetism."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. In the 'Step Potential' preset, what unique behavior did you observe?",
+      "answers": {
+        "a": "Complete transmission of the wave",
+        "b": "Wave reflection at the discontinuity with no transmitted wave beyond",
+        "c": "The wave disappeared completely",
+        "d": "Barrier width had no effect"
+      },
+      "explanations": {
+        "a": "Step potential doesn't allow complete transmission for E < V₀.",
+        "b": "Correct! At a step potential (infinite width), no wave can transmit through - all is reflected at the discontinuity.",
+        "c": "Wave conservation is maintained; it reflects back.",
+        "d": "In step potential, width is essentially infinite."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. When you increased particle energy (E) while keeping V₀ and L constant, what trend did you observe in Transmission %?",
+      "answers": {
+        "a": "Transmission decreased",
+        "b": "Transmission increased",
+        "c": "Transmission remained constant",
+        "d": "Transmission oscillated randomly"
+      },
+      "explanations": {
+        "a": "Higher energy makes tunnelling easier, not harder.",
+        "b": "Correct! Higher particle energy increases tunnelling probability because the effective barrier (V₀-E) becomes smaller.",
+        "c": "Energy significantly affects transmission.",
+        "d": "The relationship is deterministic, not random."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "10. Based on your experimental data, which scenario showed the highest Transmission %?",
+      "answers": {
+        "a": "Hard Tunnel (Low E, High V₀)",
+        "b": "Wide Barrier (Large L)",
+        "c": "Easy Tunnel (High E, Low V₀)",
+        "d": "Step Potential (Infinite Width)"
+      },
+      "explanations": {
+        "a": "Hard Tunnel has low transmission due to high barrier and low energy.",
+        "b": "Wide barriers decrease transmission exponentially.",
+        "c": "Correct! Easy Tunnel scenario has the highest transmission because particle energy is high relative to barrier height.",
+        "d": "Step potential has zero transmission as width is infinite."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}

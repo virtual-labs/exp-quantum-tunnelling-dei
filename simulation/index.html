@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quantum Tunnelling Simulation | Virtual Labs</title>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+		rel="stylesheet">
+		<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<div class="bg-animation"></div>
+
+	<!-- Header -->
+	<header class="header">
+		<div class="header-title">
+			<div class="icon">⚛️</div>
+			<div>
+				<h1>Quantum Tunnelling Simulation</h1>
+				<p>Interactive Physics Virtual Lab</p>
+			</div>
+		</div>
+		<div class="header-actions">
+			<div class="status-indicator paused" id="statusIndicator">
+				<span class="dot"></span>
+				<span id="statusText">Ready</span>
+			</div>
+		</div>
+	</header>
+
+	<!-- Main Container -->
+	<div class="main-container">
+
+		<!-- Left Panel - Controls -->
+		<div class="left-panel">
+
+			<!-- Wavepacket Controls -->
+			<div class="card">
+				<div class="card-header">
+					<span class="icon">🌊</span>
+					<h3>Wavepacket Parameters</h3>
+				</div>
+				<div class="card-body">
+					<div class="control-group">
+						<div class="control-label">
+							<span class="tooltip-trigger">
+								Particle Energy (E)
+								<span class="tooltip">Energy of the incoming quantum particle</span>
+							</span>
+							<span class="control-value" id="wpEnergyReadout">0.030 ± 0.005</span>
+						</div>
+						<input type="range" id="wpEnergySlider" min="0" max="0.100" step="0.001" value="0.030">
+					</div>
+
+					<div class="learning-tip">
+						<div class="tip-header">💡 Learning Tip</div>
+						<div class="tip-content">
+							Higher particle energy increases the probability of tunnelling through the barrier!
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Barrier Controls -->
+			<div class="card">
+				<div class="card-header">
+					<span class="icon">🧱</span>
+					<h3>Potential Barrier</h3>
+				</div>
+				<div class="card-body">
+					<div class="control-group">
+						<div class="control-label">
+							<span class="tooltip-trigger">
+								Barrier Height (V₀)
+								<span class="tooltip">Height of the potential energy barrier</span>
+							</span>
+							<span class="control-value" id="barrierEnergyReadout">0.040</span>
+						</div>
+						<input type="range" id="barrierEnergySlider" min="-0.1" max="0.1" step="0.001" value="0.040">
+					</div>
+
+					<div class="control-group">
+						<div class="control-label">
+							<span class="tooltip-trigger">
+								Barrier Width (L)
+								<span class="tooltip">Width of the potential barrier</span>
+							</span>
+							<span class="control-value" id="barrierWidthReadout">20</span>
+						</div>
+						<input type="range" id="barrierWidthSlider" min="0" max="51" step="1" value="20">
+					</div>
+
+					<div class="control-group">
+						<div class="control-label">
+							<span class="tooltip-trigger">
+								Ramp Gradient
+								<span class="tooltip">Smoothness of barrier edges</span>
+							</span>
+							<span class="control-value" id="barrierRampReadout">0</span>
+						</div>
+						<input type="range" id="barrierRampSlider" min="0" max="50" step="1" value="0">
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- Center - Simulation Area -->
+		<div class="simulation-area">
+
+			<!-- Canvas -->
+			<div class="card" style="flex: 1;">
+				<div class="card-header">
+					<span class="icon">🔬</span>
+					<h3>Quantum Wavefunction Visualization</h3>
+				</div>
+				<div class="canvas-container">
+					<canvas id="theCanvas" width="800" height="350"></canvas>
+					<div class="canvas-overlay">
+						<div class="percentage-display percentage-left" id="leftPercent">
+							⬅️ Reflected: 100.0%
+						</div>
+						<div class="percentage-display percentage-right" id="rightPercent">
+							Transmitted: 0.0% ➡️
+						</div>
+					</div>
+				</div>
+
+				<!-- Playback Controls - Inside Canvas Card -->
+				<div class="playback-controls" style="margin: 15px; border-radius: 12px;">
+					<button class="btn btn-secondary playback-btn" onclick="reset();" title="Reset">
+						🔄
+					</button>
+					<button class="btn btn-primary playback-btn play-pause" id="pauseButton" onclick="startStop();"
+						title="Play/Pause">
+						▶️
+					</button>
+					<div class="speed-control">
+						<span>Speed:</span>
+						<input type="range" id="speedSlider" min="1" max="100" step="1" value="20">
+						<span class="control-value" id="speedReadout">20x</span>
+					</div>
+					<div class="card-body">
+					<div class="display-options">
+						<div class="display-option">
+							<input type="radio" name="plotType" id="densityPhase" checked>
+							<label for="densityPhase">Density</label>
+						</div>
+						<div class="display-option">
+							<input type="radio" name="plotType" id="realImag">
+							<label for="realImag">View</label>
+						</div>
+						<div class="display-option">
+							<input type="checkbox" id="gridCheck">
+							<label for="gridCheck">Grid</label>
+						</div>
+					</div>
+				</div>
+				</div>
+				<!-- Formula Display -->
+				<div class="card" style="margin: 15px;">
+					<div class="card-body" style="padding: 15px; ">
+						<div class="formula-box">
+							<div class="formula">T(E) = e<sup>-2κL</sup> where κ = √(2m(V₀-E)/ℏ²)</div>
+							<div class="description">Transmission Coefficient Formula for Quantum Tunnelling</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+		<!-- Right Panel -->
+		<div class="right-panel">
+
+			<!-- Quick Presets -->
+			<div class="card">
+				<div class="card-header">
+					<span class="icon">⚡</span>
+					<h3>Learning Scenarios</h3>
+				</div>
+				<div class="card-body">
+					<div class="preset-grid">
+						<div class="preset-btn" onclick="loadPreset('easy')">
+							<div class="title">🟢 Easy Tunnel</div>
+							<div class="desc">High E, Low V₀</div>
+						</div>
+						<div class="preset-btn" onclick="loadPreset('medium')">
+							<div class="title">🟡 Balanced</div>
+							<div class="desc">E ≈ V₀</div>
+						</div>
+						<div class="preset-btn" onclick="loadPreset('hard')">
+							<div class="title">🔴 Hard Tunnel</div>
+							<div class="desc">Low E, High V₀</div>
+						</div>
+						<div class="preset-btn" onclick="loadPreset('classical')">
+							<div class="title">📚 Classical</div>
+							<div class="desc">E > V₀ (Over)</div>
+						</div>
+						<div class="preset-btn" onclick="loadPreset('wide')">
+							<div class="title">📏 Wide Barrier</div>
+							<div class="desc">Large L</div>
+						</div>
+						<div class="preset-btn" onclick="loadPreset('step')">
+							<div class="title">📶 Step Potential</div>
+							<div class="desc">Infinite Width</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Real-time Physics Data -->
+			<div class="card">
+				<div class="card-header">
+					<span class="icon">📊</span>
+					<h3>Physics Data</h3>
+				</div>
+				<div class="card-body">
+					<div class="data-grid">
+						<div class="data-item">
+							<span class="label">Particle Energy (E)</span>
+							<span class="value" id="dataEnergy">0.030</span>
+						</div>
+						<div class="data-item">
+							<span class="label">Barrier Height (V₀)</span>
+							<span class="value" id="dataBarrier">0.040</span>
+						</div>
+						<div class="data-item">
+							<span class="label">Barrier Width (L)</span>
+							<span class="value" id="dataWidth">20 units</span>
+						</div>
+						<div class="data-item">
+							<span class="label">Transmission %</span>
+							<span class="value" id="dataTransmission">0.0%</span>
+						</div>
+						<div class="data-item">
+							<span class="label">Reflection %</span>
+							<span class="value" id="dataReflection">100.0%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Observations -->
+			<div class="card">
+				<div class="card-header">
+					<span class="icon">📝</span>
+					<h3>Key Observations</h3>
+				</div>
+				<div class="card-body">
+					<ul class="observation-list" id="observationList">
+						<li>
+							<span class="icon">✓</span>
+							<span>Click "▶️" to start the simulation</span>
+						</li>
+						<li>
+							<span class="icon">✓</span>
+							<span>Adjust parameters and observe changes</span>
+						</li>
+						<li>
+							<span class="icon">✓</span>
+							<span>Try different presets to understand tunnelling</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script src="./js/script.js"></script>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+
+</html>
