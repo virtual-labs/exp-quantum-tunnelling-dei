@@ -96,11 +96,11 @@ Using your collected data, plot a graph with:
 Observe the exponential relationship: **T ∝ e<sup>-2κL</sup>**
 
 
-![simulation image](images/image4.png) 
+![simulation image](images/image5.png) 
 
 fig.1 Quantum Wavefunction Visualization. in Density form
 
-![simulation image](images/image4.png) 
+![simulation image](images/image6.png) 
 
 fig.2 Quantum Wavefunction Visualization.in View or frequency form
 
