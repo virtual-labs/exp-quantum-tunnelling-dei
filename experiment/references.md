@@ -1,7 +1,42 @@
 
-1. [Griffiths, D. J. (2018). *Introduction to Quantum Mechanics* (3rd ed.). Cambridge University Press.](https://www.cambridge.org/highereducation/books/introduction-to-quantum-mechanics/990799CA07A83FC5312402AF6860311E)
-2. [Pain, H. J. (2005). *The Physics of Vibrations and Waves* (6th ed.). John Wiley & Sons.](https://www.wiley.com/en-us/The+Physics+of+Vibrations+and+Waves%2C+6th+Edition-p-9780470012963)
-3. [Main, I. G. (1993). *Vibrations and Waves in Physics* (3rd ed.). Cambridge University Press.](https://www.cambridge.org/core/books/vibrations-and-waves-in-physics/8B09E03C9B6A7B1E3E3E1E1E1E1E1E1E)
-4. [Wikipedia: Quantum Tunnelling](https://en.wikipedia.org/wiki/Quantum_tunnelling)
-5. [Razavy, M. (2003). *Quantum Theory of Tunneling*. World Scientific. DOI: 10.1142/4984](https://doi.org/10.1142/4984)
-   
+### Textbooks
+
+1. Griffiths, D. J., & Schroeter, D. F. (2018). *Introduction to Quantum Mechanics* (3rd ed.). Cambridge University Press.  
+   (Chapter 2: Full derivation using creation and annihilation operators)
+
+2. Shankar, R. (2012). *Principles of Quantum Mechanics* (2nd ed.). Springer.  
+   (Chapter 6: Algebraic method emphasized; coherent states introduced)
+
+3. Messiah, A. (1999). *Quantum Mechanics* (Vol. 1). Dover Publications.  
+   (Chapter IV: Analytic solution using Hermite polynomials \(H_n(\xi)\), recursion relations)
+
+4. Sakurai, J. J., & Napolitano, J. (2020). *Modern Quantum Mechanics* (3rd ed.). Cambridge University Press.  
+   (Chapter 2: Operator algebra and number states)
+
+5. OpenStax. (2016). *University Physics Volume 3*. OpenStax.  
+   https://openstax.org/details/books/university-physics-volume-3  
+   (Section 7.6: Introductory treatment, zero-point energy)
+
+6. Ghatak, A. K., & Lokanathan, S. (2004). *Quantum Mechanics: Theory and Applications* (5th ed.). Macmillan Publishers India Limited.
+
+---
+
+### Online Resources
+
+Freely accessible derivations, simulations, and lecture materials.
+
+1. Wikipedia contributors. (2026). *Quantum harmonic oscillator*.  
+   https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator  
+   (Energy levels, ladder operators, 3D extensions)
+
+2. Physics LibreTexts. (2025). *7.6: The Quantum Harmonic Oscillator*.  
+   https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/.../7.6:_The_Quantum_Harmonic_Oscillator  
+   (Comparison of quantum and classical SHO)
+
+3. Zwiebach, B. (2013). *Quantum Physics I (MIT OpenCourseWare 8.04), Lecture 8: Quantum Harmonic Oscillator*.  
+   https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2013/resources/mit8_04s13_lec08/  
+   (PDF notes on time-dependent states)
+
+4. Grünberg, P. (Ongoing). *Linear Harmonic Oscillator*. UIUC Physics Notes.  
+   https://www.ks.uiuc.edu/Services/Class/PHYS480/qm_PDF/chp4.pdf  
+   (Schrödinger equation and stationary states)
