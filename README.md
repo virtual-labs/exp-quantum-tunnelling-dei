@@ -1,24 +1,27 @@
 ## Introduction
 
 
-<b>Discipline | <b>Fill your discipline name here
+<b>Discipline | <b>Physics 
 :--|:--|
-<b> Lab | <b> Fill your lab name here
-<b> Experiment|     <b> Fill your experiment name and number here
+<b> Lab | <b> Waves, Optics and Quantum Mechanics
+<b> Experiment|     <b> Quantum Tunnelling Through Potential Barrier
 
 ### About the Experiment 
 
-Fill a brief description of this experiment here
+This experiment demonstrates how quantum particles can penetrate and pass through potential barriers even when their energy is less than the barrier height, a phenomenon called tunnelling. It illustrates the wave nature of particles and the non-zero probability of barrier transmission predicted by quantum mechanics.
 
-<b>Name of Developer | <b> Fill the name of experiment owner here 
+<b>Name of Developer | <b> Professor Sukhdev Roy
 :--|:--|
-<b> Institute | <b>  
-<b> Email id|     <b>  
-<b> Department |  
+<b> Institute | <b>  Dayalbagh Educational Institute(D.E.I.)
+<b> Email id|     <b>  sukhdevroy@dei.ac.in
+<b> Department |  Physics and Computer Science
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | . | . | . | . | .
-2 | . | . | . | . | .
+1 | Deepak kumar | Student | Physics and Computer Science | Dayalbagh Educational Institute(D.E.I.) | deepakkumar2103133@dei.ac.in
+2 | Nripesh Dixit | Research Scholar | Physics and Computer Science | Dayalbagh Educational Institute(D.E.I.) | nripeshdixit@dei.ac.in
+3 | Km. Jyoti Singh | Research Scholar | Physics and Computer Science | Dayalbagh Educational Institute(D.E.I.) | Jyotisingh1@dei.ac.in
+
+
