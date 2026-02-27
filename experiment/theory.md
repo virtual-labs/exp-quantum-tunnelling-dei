@@ -67,7 +67,7 @@ $$
 T \approx 
 \frac{1}{1 + 
 \frac{V_0^2}{4E(V_0 - E)} 
-\left( \frac{\sqrt{2m(V_0 - E)}}{\hbar} a \right)^2}
+\left( \frac{\sqrt{2m(V_0 - E)}}{\hbar} L \right)^2}
 $$
 
 ---
