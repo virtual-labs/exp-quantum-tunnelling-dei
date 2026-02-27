@@ -14,7 +14,7 @@ Quantum tunneling occurs when a particle encounters a potential energy barrier t
 #### 2. Schrödinger Equation and Wave Functions
 The behavior of particles in the presence of a potential barrier is described by the time-independent Schrödinger equation:
 
-![Schrödinger Equation](images/image1.png)
+$\frac{d^2 \psi}{dx^2} + \frac{2m}{\hbar^2}(E - Vo)\psi = 0$
 
 <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
 <tr style="background: linear-gradient(135deg, #667eea, #764ba2); color: white;">
@@ -32,9 +32,43 @@ The behavior of particles in the presence of a potential barrier is described by
 #### 3. Transmission Coefficient
 The transmission coefficient **T(L, E)** represents the probability of a particle tunnelling through a potential barrier of width L and total energy E. It is given by the formula:
 
-![Transmission Coefficient](images/image2.png)
+$$
+T = \left[ 1 + \frac{V_0^2 \sinh^2(\kappa a)}{4E(V_0 - E)} \right]^{-1}
+$$
 
-**T(E) = e<sup>-2κL</sup>** where **κ = √(2m(V₀-E)/ℏ²)**
+Where
+
+$$
+\kappa = \sqrt{\frac{2m(V_0 - E)}{\hbar^2}}
+$$
+
+Exact Formula (E < Vo):
+
+$$
+T = \frac{1}{1 + \frac{V_0^2}{4E(V_0 - E)} 
+\sinh^2\left( \frac{\sqrt{2m(V_0 - E)}}{\hbar} L \right)}
+$$
+
+For Thick/high Barrier Approximation (T<<1):
+
+$$
+T \approx e^{-2\kappa L}
+$$
+
+or
+
+$$
+T \approx e^{-2 \frac{\sqrt{2m(V_0 - E)}}{\hbar} L}
+$$
+
+For Low/Thin Barrier Approximation (E -> Vo):
+
+$$
+T \approx 
+\frac{1}{1 + 
+\frac{V_0^2}{4E(V_0 - E)} 
+\left( \frac{\sqrt{2m(V_0 - E)}}{\hbar} L \right)^2}
+$$
 
 ---
 
@@ -80,10 +114,11 @@ The transmission coefficient **T(L, E)** represents the probability of a particl
 4. When **E > V₀**, classical physics allows passage, but quantum effects still appear
 5. The **wavefunction** decays exponentially inside the barrier region
 
----
+---  
 
 ### Real-World Applications of Quantum Tunnelling
 - **Radioactive Alpha Decay**: Alpha particles tunnel through nuclear potential barrier
 - **Scanning Tunnelling Microscope (STM)**: Uses tunnelling current to image surfaces
 - **Tunnel Diodes**: Electronic components using quantum tunnelling
 - **Nuclear Fusion in Stars**: Particles tunnel through Coulomb barrier
+- **Wave guide couplers:** Fiber and integrated optic directional couplers and prism couplers

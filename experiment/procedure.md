@@ -98,11 +98,11 @@ Observe the exponential relationship: **T ∝ e<sup>-2κL</sup>**
 
 ![simulation image](images/image5.png) 
 
-fig.1 Quantum Wavefunction Visualization. in Density form
+Fig.1 Quantum Wavefunction Visualization in Density form
 
 ![simulation image](images/image6.png) 
 
-fig.2 Quantum Wavefunction Visualization.in View or frequency form
+Fig.2 Quantum Wavefunction Visualization in frequency form
 
 
 ---
