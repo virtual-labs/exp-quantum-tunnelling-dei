@@ -14,7 +14,7 @@ Quantum tunneling occurs when a particle encounters a potential energy barrier t
 #### 2. Schrödinger Equation and Wave Functions
 The behavior of particles in the presence of a potential barrier is described by the time-independent Schrödinger equation:
 
-![Schrödinger Equation](images/image1.png)
+$\frac{d^2 \psi}{dx^2} + \frac{2m}{\hbar^2}(E - Vo)\psi = 0$
 
 <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
 <tr style="background: linear-gradient(135deg, #667eea, #764ba2); color: white;">
