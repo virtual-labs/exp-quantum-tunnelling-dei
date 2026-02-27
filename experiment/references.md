@@ -17,7 +17,8 @@
    https://openstax.org/details/books/university-physics-volume-3  
    (Section 7.6: Introductory treatment, zero-point energy)
 
-6. Ghatak, A. K., & Lokanathan, S. (2004). *Quantum Mechanics: Theory and Applications* (5th ed.). Macmillan Publishers India Limited.
+6. Ghatak, A. K., & Lokanathan, S. (2004). *Quantum Mechanics: Theory and Applications* (5th ed.). Macmillan Publishers India Limited.</br>
+   (Chapter 8: One dimensional barrier transmission problems)
 
 ---
 
