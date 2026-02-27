@@ -80,10 +80,11 @@ The transmission coefficient **T(L, E)** represents the probability of a particl
 4. When **E > V₀**, classical physics allows passage, but quantum effects still appear
 5. The **wavefunction** decays exponentially inside the barrier region
 
----
+---  
 
 ### Real-World Applications of Quantum Tunnelling
 - **Radioactive Alpha Decay**: Alpha particles tunnel through nuclear potential barrier
 - **Scanning Tunnelling Microscope (STM)**: Uses tunnelling current to image surfaces
 - **Tunnel Diodes**: Electronic components using quantum tunnelling
 - **Nuclear Fusion in Stars**: Particles tunnel through Coulomb barrier
+- **Wave guide couplers:** Fiber and integrated optic directional couplers and prism couplers
