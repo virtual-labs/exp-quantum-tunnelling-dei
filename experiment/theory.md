@@ -32,9 +32,43 @@ $\frac{d^2 \psi}{dx^2} + \frac{2m}{\hbar^2}(E - Vo)\psi = 0$
 #### 3. Transmission Coefficient
 The transmission coefficient **T(L, E)** represents the probability of a particle tunnelling through a potential barrier of width L and total energy E. It is given by the formula:
 
-![Transmission Coefficient](images/image2.png)
+$$
+T = \left[ 1 + \frac{V_0^2 \sinh^2(\kappa a)}{4E(V_0 - E)} \right]^{-1}
+$$
 
-**T(E) = e<sup>-2κL</sup>** where **κ = √(2m(V₀-E)/ℏ²)**
+Where
+
+$$
+\kappa = \sqrt{\frac{2m(V_0 - E)}{\hbar^2}}
+$$
+
+Exact Formula (E < Vo):
+
+$$
+T = \frac{1}{1 + \frac{V_0^2}{4E(V_0 - E)} 
+\sinh^2\left( \frac{\sqrt{2m(V_0 - E)}}{\hbar} L \right)}
+$$
+
+For Thick/high Barrier Approximation (T<<1):
+
+$$
+T \approx e^{-2\kappa L}
+$$
+
+or
+
+$$
+T \approx e^{-2 \frac{\sqrt{2m(V_0 - E)}}{\hbar} L}
+$$
+
+For Low/Thin Barrier Approximation (E -> Vo):
+
+$$
+T \approx 
+\frac{1}{1 + 
+\frac{V_0^2}{4E(V_0 - E)} 
+\left( \frac{\sqrt{2m(V_0 - E)}}{\hbar} a \right)^2}
+$$
 
 ---
 
