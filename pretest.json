@@ -1,0 +1,175 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is the phenomenon called when particles penetrate potential energy barriers that would be classically impossible?",
+      "answers": {
+        "a": "Reflection",
+        "b": "Dispersion",
+        "c": "Quantum Tunnelling",
+        "d": "Absorption"
+      },
+      "explanations": {
+        "a": "Reflection is when a wave bounces back from a barrier.",
+        "b": "Dispersion refers to the spreading of waves.",
+        "c": "Correct! Quantum tunnelling allows particles to pass through barriers even when they don't have enough energy classically. <a href='https://en.wikipedia.org/wiki/Quantum_tunnelling'>Read more</a>",
+        "d": "Absorption is when energy is taken in by a material."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which equation describes the behavior of particles encountering potential barriers in quantum mechanics?",
+      "answers": {
+        "a": "Newton's Second Law",
+        "b": "Maxwell's Equations",
+        "c": "Schrödinger Equation",
+        "d": "Planck's Equation"
+      },
+      "explanations": {
+        "a": "Newton's laws apply to classical mechanics, not quantum behavior.",
+        "b": "Maxwell's equations describe electromagnetic waves.",
+        "c": "Correct! The Schrödinger equation describes how quantum states evolve over time. <a href='https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation'>Read more</a>",
+        "d": "Planck's equation relates energy to frequency but doesn't describe tunnelling."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What happens to the tunnelling probability when the width of the potential barrier increases?",
+      "answers": {
+        "a": "It increases exponentially",
+        "b": "It decreases exponentially",
+        "c": "It becomes infinite",
+        "d": "It remains constant"
+      },
+      "explanations": {
+        "a": "Incorrect. Wider barriers make tunnelling harder, not easier.",
+        "b": "Correct! Tunnelling probability decreases exponentially with barrier width: T ∝ e^(-2κL)",
+        "c": "Incorrect. Probability cannot exceed 100%.",
+        "d": "Incorrect. Barrier width significantly affects tunnelling probability."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. In the simulation, what does the 'Transmission %' indicate?",
+      "answers": {
+        "a": "Percentage of wave reflected back",
+        "b": "Energy of the particle",
+        "c": "Percentage of wave that passed through the barrier",
+        "d": "Width of the barrier"
+      },
+      "explanations": {
+        "a": "That would be the Reflection %, not Transmission %.",
+        "b": "Energy is controlled by a separate slider.",
+        "c": "Correct! Transmission % shows how much of the wavefunction successfully tunnelled through the barrier.",
+        "d": "Width is a separate parameter controlled by a slider."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Which factor increases the likelihood of quantum tunnelling?",
+      "answers": {
+        "a": "Lower particle energy (E)",
+        "b": "Higher barrier height (V₀)",
+        "c": "Smaller barrier width (L)",
+        "d": "Larger particle mass"
+      },
+      "explanations": {
+        "a": "Lower energy actually decreases tunnelling probability.",
+        "b": "Higher barriers make tunnelling harder.",
+        "c": "Correct! A thinner barrier allows higher tunnelling probability because T ∝ e^(-2κL).",
+        "d": "Larger mass decreases tunnelling probability."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6. What is the transmission coefficient formula for quantum tunnelling?",
+      "answers": {
+        "a": "T = E × V₀",
+        "b": "T = e^(-2κL)",
+        "c": "T = L / V₀",
+        "d": "T = E + V₀"
+      },
+      "explanations": {
+        "a": "This is not the correct formula.",
+        "b": "Correct! The transmission coefficient is T = e^(-2κL) where κ = √(2m(V₀-E)/ℏ²)",
+        "c": "This is not the correct formula.",
+        "d": "This is not the correct formula."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. In the simulation, what does the 'Density' display mode show?",
+      "answers": {
+        "a": "Real and imaginary parts of the wavefunction",
+        "b": "Probability density |Ψ|² with phase as color",
+        "c": "Only the barrier region",
+        "d": "Energy levels"
+      },
+      "explanations": {
+        "a": "That would be the 'View' (Real/Imag) mode.",
+        "b": "Correct! Density mode shows the probability distribution with phase indicated by color.",
+        "c": "The barrier is always visible in both modes.",
+        "d": "Energy is shown in the data panel, not the display modes."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "8. What happens to the tunnelling probability when the barrier height (V₀) increases?",
+      "answers": {
+        "a": "It increases",
+        "b": "It decreases",
+        "c": "It remains constant",
+        "d": "It becomes infinite"
+      },
+      "explanations": {
+        "a": "Higher barriers make tunnelling harder, not easier.",
+        "b": "Correct! Higher barrier height decreases tunnelling probability as κ = √(2m(V₀-E)/ℏ²) increases.",
+        "c": "Barrier height significantly affects tunnelling probability.",
+        "d": "Probability cannot exceed 100%."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "9. Which of the following applications uses quantum tunnelling?",
+      "answers": {
+        "a": "Scanning Tunnelling Microscope (STM)",
+        "b": "Traditional light microscope",
+        "c": "Radio transmission",
+        "d": "Sound amplification"
+      },
+      "explanations": {
+        "a": "Correct! STM uses quantum tunnelling of electrons to image surfaces at atomic resolution.",
+        "b": "Light microscopes use optical principles, not quantum tunnelling.",
+        "c": "Radio transmission uses electromagnetic waves.",
+        "d": "Sound amplification is based on acoustic principles."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "10. In quantum mechanics, what does the wavefunction Ψ represent?",
+      "answers": {
+        "a": "The exact position of a particle",
+        "b": "The probability amplitude of finding a particle",
+        "c": "The speed of the particle",
+        "d": "The mass of the particle"
+      },
+      "explanations": {
+        "a": "Quantum mechanics doesn't give exact positions, only probabilities.",
+        "b": "Correct! The wavefunction Ψ is a probability amplitude, and |Ψ|² gives the probability density.",
+        "c": "Speed is related to momentum, not directly to the wavefunction.",
+        "d": "Mass is a property of the particle, not represented by the wavefunction."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
